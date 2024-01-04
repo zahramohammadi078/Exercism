@@ -7,7 +7,8 @@ export const isPangram = (str) => {
   const alp = [..."abcdefghijklmnopqrstuvwxyz"];
 
   for (let i = 0; i < alp.length; i++) {
-    if (string.includes(alp[i]) == false) return false;
+    if (string.includes(alp[i]) == false)
+     return false;
   }
   return true;
 };
