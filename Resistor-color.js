@@ -6,8 +6,8 @@
 export const colorCode = (color) => {
 
     let index = -1;
-   COLORS.forEach((element, i) => {
-     if (element === color) {
+   COLORS.forEach((ourColor, i) => {
+     if (ourColor === color) {
        index = i;
      }
    });
