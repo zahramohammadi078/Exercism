@@ -12,8 +12,8 @@
     }
   
    
-    return multiples.reduce(function(acc, val) {
-      return acc + val;
+    return multiples.reduce(function(ac, val) {
+      return ac + val;
     }, 0);
   };
   
